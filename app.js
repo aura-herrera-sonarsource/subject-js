@@ -2,14 +2,14 @@ const express = require('express')
 const app = express()
 const port = 30002
 
-function say(a, b) {
-  print(a + " " + b);
+function say(a, b, c) {
+  print(a + " " + b + c);
 }
 
-say("hello", "world", "!");
-say("hello", "world", "!");
-say("hello", "world", "!");
-say("hello", "world", "!");
+say("hola", "mundo", "!");
+say("bonjour", "le monde", "!");
+say("ola", "mundo", "!");
+say("ciao", "mondo", "!");
 say("hello", "world", "!");
 say("hello", "world", "!");
 say("hello", "world", "!");
